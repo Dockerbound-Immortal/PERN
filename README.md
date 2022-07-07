@@ -104,3 +104,11 @@ For a basic application we recommend keeping the Client and Server as separate s
 and <code>api</code> services, I recommend naming each service as <code>{service-name}-client}</code> and <code>{service-name}-api</code> respectively.
 
 When adding services you will also need to update the nginx.config to route the request on a per-service basis. We use Nginx as our gateway for requests, this is set up as reverse proxy to keep our internal requests secure.
+
+## Child Repositories
+
+These repositores are the subrepositories used in this tempalte. These are setup to work out of the box
+with the PERN stack. You can use these as templates for your own services, or create our own from scratch.
+
+- [Node API](https://github.com/PlanetDebug/PERN-API)
+- [React Client](https://github.com/PlanetDebug/PERN-CLIENT)
