@@ -1,4 +1,4 @@
-# NERPA Microservices
+# PERN Microservices
 
 A simplified microservices template for use with docker-compose.
 Each service is separated by a network, ensuring local services
